@@ -33,7 +33,6 @@ pub fn second() {
             n
         }
     }).fold((50, 0), |(prev_pos, zero_count), turn| {
-        // println!("{} {} {}", turn, prev_pos, zero_count);
         let pos = prev_pos + turn;
         if turn > 0 {
             (pos % 100, zero_count + pos / 100)

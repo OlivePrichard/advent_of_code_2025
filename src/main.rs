@@ -2,7 +2,7 @@
 
 mod days;
 
-use days::day_1::*;
+use days::day_2::*;
 
 fn time(function: fn()) {
     let start = std::time::Instant::now();
